@@ -3,7 +3,7 @@ pragma circom 2.1.3;
 include "../node_modules/circomlib/circuits/comparators.circom";
 include "../node_modules/circomlib/circuits/bitify.circom";
 
-// SafeSum performs a sum between two numbers preventing overflow
+// SafeCalc performs a sum between two numbers preventing overflow
 // Performs range checks on the inputs to avoid overflow. Range is n <= 252
 // Overflow happen when the sum of two numbers is greater than p = 21888242871839275222246405745257275088548364400416034343698204186575808495617 (which is a value between 2^253 and 2^254)
 // This can be done prevented performing range checks. The range check is performed passing a value inside `num2Bits(252).`If both the addendum are less then 2**252. The result will never overflow.
