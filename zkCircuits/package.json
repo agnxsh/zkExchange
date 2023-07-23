@@ -1,0 +1,29 @@
+{
+  "name": "@0xagnish/zkcircuits",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "bash scripts/build.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@0xagnish/zk-data-prep": "^0.0.3",
+    "@types/jest": "^29.5.2",
+    "big-integer": "^1.6.51",
+    "chai": "^4.3.7",
+    "circom_tester": "^0.0.19",
+    "circomlib": "^2.0.5",
+    "circomlibjs": "^0.0.8",
+    "mocha": "^10.2.0",
+    "pyt-merkle-sum-tree": "^0.0.21",
+    "snarkjs": "^0.5.0",
+    "ts-jest": "^29.1.1",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^5.1.6"
+  }
+}
